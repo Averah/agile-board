@@ -6,14 +6,13 @@ import Header from "./components/Header";
 function App() {
   return (
     <>
-    <Header />
-    <div>
-      <Dashboard />
-    </div>
+      <Header />
+      <div>
+        <Dashboard />
+      </div>
     </>
 
   );
 }
 
 export default observer(App);
- 
